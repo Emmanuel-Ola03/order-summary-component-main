@@ -1,0 +1,174 @@
+body{
+    background-color: hsl(225, 100%, 94%);
+    font-family: Red Hat Display;
+    display: flex;
+    flex-wrap: wrap;
+    height: 100vh;
+    align-content: center;
+    justify-content: center;
+}
+
+.container{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 400px;
+    border-radius: 25px;
+    background-color: hsl(225, 100%, 98%);
+}
+
+.main{
+    text-align: center;
+    margin-bottom: -40px;
+}
+
+.hero{
+  width: 400px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+
+.fist{
+    padding-left: 50px;
+    padding-right: 50px;
+    line-height: 25px;
+}
+
+.sub{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: hsl(225, 25%, 94%);
+    border-radius: 15px;
+    margin: 40px;
+    margin-bottom: 0px;
+    padding: 10px;
+    padding-bottom: 10px;
+}
+
+.dugbe{
+    padding-right: 0px;
+}
+
+.fiss{
+    color: black;
+    padding-right: 50px;
+    padding-left: 0px;
+}
+
+
+.foot{
+    text-align: center;
+    padding-left: 40px;
+    padding-bottom: 15px;
+    padding-right: 40px;
+}
+
+.foot>h4>a{
+    text-decoration: none;
+}
+
+h4{
+    background-color: hsl(245, 75%, 52%);
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    padding: 17px;
+    border-radius: 15px;
+}
+
+p{
+    color: hsl(224, 23%, 55%);
+    font-size: 16px;
+}
+
+
+
+.link{
+    display: block;
+    font-weight: bold;
+}
+
+.attribution { font-size: 11px; text-align: center;}
+.attribution a { color: hsl(228, 45%, 44%); }
+
+@media (min-width:300px) and (max-width:800px){
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+    
+    body{
+        background-color: hsl(225, 100%, 94%);
+        font-family: Red Hat Display;
+        text-align: center;
+        margin: 20px;
+        display: flex;
+        flex-wrap: wrap;
+        align-content: center;
+        justify-content: center;
+        height: 100vh;
+    }
+    
+    .container{
+        display: flex;
+        align-content: center;
+        justify-content: center;
+        width: 100%;
+        border-radius: 25px;
+        background-color: hsl(225, 100%, 98%);
+    }
+    .main{
+        margin-bottom: -5px;
+    }
+    
+    .hero{
+      width: 100%;
+      border-top-left-radius: 20px;
+      border-top-right-radius: 20px;
+    }
+    
+    .fist{
+        padding-left: 25px;
+        padding-right: 25px;
+        line-height: 25px;
+    }
+    
+    .sub{
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        background-color: hsl(225, 25%, 94%);
+        border-radius: 15px;
+        margin: 15px;
+        padding: 10px;
+        padding-bottom: 10px;
+    }
+    
+    .fiss{
+        padding-right: 30px;
+    }
+    
+    h4{
+        background-color: hsl(245, 75%, 52%);
+        padding: 17px;
+        border-radius: 15px;
+        color: hsl(225, 100%, 98%);
+    }
+    
+    p{
+        color: hsl(224, 23%, 55%);
+        font-size: 18px;
+    }
+    
+    .foot{
+        padding-left: 15px;
+        padding-bottom: 15px;
+        padding-right: 15px;
+    }
+    
+    .link{
+        display: block;
+        font-weight: bold;
+    }
+
+    
+}
+
